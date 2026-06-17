@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frances Sison Mosqueda | Professional Portfolio</title>
+    <!-- Premium Google Fonts Integration -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Capsule Navigation Bar with Brand Label -->
+    <header>
+        <nav>
+            <span class="nav-brand">MY PORTFOLIO</span>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="center-content">
+        <div class="hero-header">
+            <div class="hero-photo-wrap">
+                <img class="hero-photo" src="Image/Photo.png" alt="Portrait of Frances Sison Mosqueda">
+            </div>
+            <div class="hero-text-wrap">
+                <h1 class="hero-title">Frances Sison Mosqueda</h1>
+                <p class="hero-subtitle">Photography, Video Editing & Computer Science</p>
+            </div>
+        </div>
+        
+        <p class="hero-description">
+            Third-year Computer Science student at the Polytechnic University of the Philippines. 
+            I combine my passion for creative media — photography, video editing, and design — with my technical background in software development and data analytics.
+        </p>
+
+        <!-- Interactive Floating Stack Deck -->
+        <div class="deck-container">
+            <div class="deck-bg-text">PUP CS & CREATIVE</div>
+            
+            <div class="floating-card card-1">
+                <div class="card-graphic-box" style="background-color: #EAA86B;">🥋</div>
+                <div class="card-tag">Athletics</div>
+                <div class="card-text">Secretary of the PUP Jiu-Jitsu Varsity Team, handling communications, documentation, and event coordination.</div>
+                <button class="gallery-view-btn" data-project="bjj" data-title="Athletics Photos">View Gallery ↗</button>
+            </div>
+
+            <div class="floating-card card-2">
+                <div class="card-graphic-box" style="background-color: #BACDB0;">💻</div>
+                <div class="card-tag">Development</div>
+                <div class="card-text">Built full-stack apps like SpinCycle, a laundry management system written in C#.</div>
+                <a class="gallery-view-btn" href="#projects">View Project ↗</a>
+            </div>
+
+            <div class="floating-card card-3">
+                <div class="card-graphic-box" style="background-color: #B2C5CC;">🧮</div>
+                <div class="card-tag">Compiler Systems</div>
+                <div class="card-text">Designed a lexical and syntax analyzer (DSArv) for my Principles of Programming Languages course.</div>
+                <a class="gallery-view-btn" href="#projects">View Project ↗</a>
+            </div>
+
+            <div class="floating-card card-4">
+                <div class="card-graphic-box" style="background-color: #C55234;">📸</div>
+                <div class="card-tag">Media Ops</div>
+                <div class="card-text">Event photographer, video editor, and production staff for various organizations.</div>
+                <button class="gallery-view-btn" data-project="mediaops" data-title="Media Ops Photos">View Gallery ↗</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2 class="section-label center-content">Curriculum & Objectives</h2>
+        
+        <div class="bento-grid">
+            <!-- Academic Path Timeline List -->
+            <div class="bento-item bento-main">
+                <div>
+                    <h3>Educational Background</h3>
+                    <p>Rigorous formal training in computational tracks and machine architectures.</p>
+                </div>
+                <ol>
+                    <li><strong>Polytechnic University of the Philippines</strong><br>BS Computer Science | 2023 - Present</li>
+                    <li><strong>Holy Trinity Academy</strong><br>Information Communication Technology | 2021 - 2023</li>
+                    <li><strong>USAID Pathway Program</strong><br>Artificial Intelligence & Machine Learning</li>
+                </ol>
+            </div>
+
+            <!-- Strategic Ambitions Unordered List -->
+            <div class="bento-item bento-wide">
+                <div>
+                    <h3>Core Professional Targets</h3>
+                    <p>Creating clean, functional work that blends software development with creative media.</p>
+                </div>
+                <ul>
+                    <li>Create clean, functional applications that solve real problems.</li>
+                    <li>Keep improving my skills in both software development and creative media.</li>
+                    <li>Help organize and contribute to tech communities and events.</li>
+                </ul>
+            </div>
+
+            <div class="bento-item bento-box-1">
+                <h3>Interests & Hobbies</h3>
+                <p>Secretary of the PUP Jiu-Jitsu Varsity Team. Outside school, I enjoy portrait photography, video editing, and graphic design using tools like Lightroom, Premiere Pro, and Figma.</p>
+            </div>
+
+            <div class="bento-item bento-box-2">
+                <h3>Civic Engagement</h3>
+                <p>Served as Hackathon Manager for Arduino Day Philippines 2025. Secretary, Photographer & Production Staff at MHRP Social Communication Ministry. Active member of PUP Microsoft Student Community (Cybersecurity) and AWS Cloud Club PUP (Data Analytics).</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="center-content">
+        <h2 class="section-label">Technical Competencies</h2>
+        <p class="section-desc">
+            A breakdown of my tools, skills, and the contexts I've applied them in.
+        </p>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Domain Area</th>
+                        <th>Specific Competency / Tool Set</th>
+                        <th>Application Context</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Creative Operations</strong></td>
+                        <td>
+                            Adobe Lightroom, Photoshop, Premiere Pro, After Effects, Figma, Canva
+                            <div class="skill-progress-wrapper"><div class="skill-progress-bar" data-target-width="95%"></div></div>
+                        </td>
+                        <td>Event photography, video editing, graphic design</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Software Engineering</strong></td>
+                        <td>
+                            C#, .NET Core, Windows Forms, SQL
+                            <div class="skill-progress-wrapper"><div class="skill-progress-bar" data-target-width="90%"></div></div>
+                        </td>
+                        <td>Built apps like SpinCycle for business management</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Compiler Design</strong></td>
+                        <td>
+                            Lexical Analysis, Tokenization, Finite Automata
+                            <div class="skill-progress-wrapper"><div class="skill-progress-bar" data-target-width="87%"></div></div>
+                        </td>
+                        <td>Built DSArv, a lexical & syntax analyzer</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Data & Cloud</strong></td>
+                        <td>
+                            AWS Cloud Services, Cybersecurity Fundamentals
+                            <div class="skill-progress-wrapper"><div class="skill-progress-bar" data-target-width="82%"></div></div>
+                        </td>
+                        <td>Data analytics projects, security awareness workshops</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Projects / Gallery Showcase Section -->
+    <section id="projects" class="center-content">
+        <h2 class="section-label">System Highlights Gallery</h2>
+        
+        <div class="gallery-grid">
+            <div class="gallery-card">
+                <figure>
+                    <div class="gallery-visual" style="background-color: #BACDB0;">🧼</div>
+                    <figcaption>
+                        <h4>SpinCycle (C#)</h4>
+                        <p>A laundry business management app built in C#. It tracks customer orders, computes pricing based on weight, and manages client records using a database.</p>
+                        <button class="gallery-view-btn" data-project="spincycle" data-title="SpinCycle Project (C#)">View Project ↗</button>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="gallery-card">
+                <figure>
+                    <div class="gallery-visual" style="background-color: #FFD9A3;">🧩</div>
+                    <figcaption>
+                        <h4>Lexical & Syntax Analyzer (DSArv)</h4>
+                        <p>A compiler tool built for my Programming Languages subject. It reads code input and breaks it down into tokens — identifying keywords, parameters, and expressions.</p>
+                        <button class="gallery-view-btn" data-project="lexical" data-title="Lexical & Syntax Analyzer">View Project ↗</button>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="gallery-card">
+                <figure>
+                    <div class="gallery-visual" style="background-color: #B2C5CC;">♟️</div>
+                    <figcaption>
+                        <h4>DaMath Look-Ahead Engine</h4>
+                        <p>A board game AI that uses math-based scoring and look-ahead logic to decide the best move at each turn.</p>
+                        <a class="gallery-view-btn" href="https://github.com/arkzxk/OETF" target="_blank" rel="noopener noreferrer">View Repository ↗</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="center-content">
+        <h2 class="section-label">My Contact</h2>
+        
+        <!-- Social Networks Link Grid Connections -->
+        <div class="social-links-container">
+            <a href="https://www.linkedin.com/in/frances-mosqueda-235a15296/" target="_blank" rel="noopener noreferrer" class="social-link">
+                <span class="social-icon" aria-hidden>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.11 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V24h-4zM8.5 8h3.84v2.16h.05c.54-1.02 1.86-2.16 3.83-2.16 4.1 0 4.86 2.7 4.86 6.21V24h-4v-7.41c0-1.77-.03-4.05-2.47-4.05-2.47 0-2.85 1.93-2.85 3.92V24h-4z"/></svg>
+                </span>
+                <span>LinkedIn</span>
+            </a>
+            <a href="https://www.facebook.com/cesseaaasaw" target="_blank" rel="noopener noreferrer" class="social-link">
+                <span class="social-icon" aria-hidden>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.99 3.66 9.12 8.44 9.88v-6.99H7.9v-2.89h2.54V9.8c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.45h-1.25c-1.23 0-1.61.77-1.61 1.56v1.87h2.74l-.44 2.89h-2.3V22C18.34 21.12 22 16.99 22 12z"/></svg>
+                </span>
+                <span>Facebook</span>
+            </a>
+            <a href="https://github.com/cessawyii" target="_blank" rel="noopener noreferrer" class="social-link">
+                <span class="social-icon" aria-hidden>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 .5C5.73.5.75 5.48.75 11.75c0 4.95 3.29 9.14 7.86 10.62.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.39-3.88-1.39-.53-1.35-1.3-1.71-1.3-1.71-1.06-.73.08-.72.08-.72 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.73 1.27 3.4.97.11-.75.41-1.27.75-1.56-2.56-.29-5.25-1.28-5.25-5.71 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.45.11-3.02 0 0 .96-.31 3.15 1.18a10.9 10.9 0 012.87-.39c.97 0 1.95.13 2.87.39 2.19-1.49 3.15-1.18 3.15-1.18.63 1.57.23 2.73.11 3.02.74.81 1.19 1.84 1.19 3.1 0 4.44-2.7 5.41-5.27 5.69.42.36.79 1.07.79 2.15 0 1.55-.01 2.8-.01 3.18 0 .31.21.68.8.56A11.26 11.26 0 0023.25 11.75C23.25 5.48 18.27.5 12 .5z"/></svg>
+                </span>
+                <span>GitHub</span>
+            </a>
+        </div>
+
+        <div class="form-container">
+            <form id="portfolioContactForm" action="#" method="POST">
+                <div class="form-group">
+                    <label for="userName">Name</label>
+                    <input type="text" id="userName" required placeholder="Your Full Name">
+                </div>
+                <div class="form-group">
+                    <label for="userEmail">Email</label>
+                    <input type="email" id="userEmail" required placeholder="your.email@domain.com">
+                </div>
+                <div class="form-group">
+                    <label for="userMessage">Message</label>
+                    <textarea id="userMessage" rows="5" required placeholder="Type your message text here..."></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Semantic Footer element -->
+    <footer>
+        <p>&copy; 2026 Frances Sison Mosqueda. Tailored for Web Development final Project. </p>
+    </footer>
+
+</body>
+</html>
